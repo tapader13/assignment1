@@ -108,15 +108,17 @@ nav ul li a button {
 
 main {
     width: 1140px;
-    height: 1395px;
-    margin-inline: 150px;
+    /* height: 1395px; */
+    /* padding-inline: 150px; */
     border-radius: 16px;
     margin-block: 74px;
-    background: rgba(13, 19, 33, 0.02);
+    margin-inline: auto;
+
 }
 
 .main_container {
     padding: 80px 97px 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .main_header {
@@ -526,4 +528,34 @@ main {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.footer_part {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 32px 0 32px 0;
+
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    margin-inline: auto;
+}
+
+.footer_content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    gap: 30px;
 }
