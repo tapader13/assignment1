@@ -454,3 +454,76 @@ main {
 
     background: rgb(255, 255, 255);
 }
+
+.support {
+    margin-top: 40px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("assets/handshake.jpg");
+    padding: 64px 48px 64px 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.support h1 {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.support p {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    opacity: .7;
+}
+
+.input_content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.input_content input {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    padding: 19px 20px 19px 20px;
+    background: rgb(255, 255, 255);
+    width: 548px;
+    border: none;
+    outline: none;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+}
+
+.input_content button {
+    border-radius: 8px;
+    padding: 17px 20px 17px 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
