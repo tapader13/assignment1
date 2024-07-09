@@ -52,10 +52,12 @@ nav ul li a button {
 .banner {
     background-image: url("assets/Hero-bg.png");
     width: 100vw;
-    height: 652px;
+    height: 672px;
     display: flex;
+    padding-block: 30px;
+    /* border: 2px solid rebeccapurple; */
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .banner_content {
