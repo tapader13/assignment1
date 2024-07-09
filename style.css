@@ -122,6 +122,7 @@ main {
 .main_container {
     padding: 80px 97px 80px 97px;
     background: rgba(13, 19, 33, 0.02);
+    border-radius: 16px;
 }
 
 .main_header {
