@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding-block: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 150px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+}
+
+nav h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+nav ul li a button {
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    background-color: transparent;
+}
+
+.banner {
+    background-image: url("assets/Hero-bg.png");
+    width: 100vw;
+    height: 652px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    width: 998px;
+    text-align: center;
+
+}
+
+.banner_content img {
+    width: 240.28px;
+    height: 240px;
+}
+
+.banner_content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.banner_content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner_content button {
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    background: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+main {
+    width: 1140px;
+    height: 1395px;
+    margin-inline: 150px;
+    border-radius: 16px;
+    margin-block: 74px;
+    background: rgba(13, 19, 33, 0.02);
+}
