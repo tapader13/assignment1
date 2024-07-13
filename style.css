@@ -207,6 +207,10 @@ main {
     cursor: pointer;
 }
 
+.hide {
+    display: none;
+}
+
 .main_div2 {
     padding: 48px;
     display: flex;
@@ -564,4 +568,334 @@ main {
 .icons {
     display: flex;
     gap: 30px;
+}
+
+
+/* responsive design */
+
+@media screen and (max-width:576px) {
+    .footer_content {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .footer_part {
+
+        padding: 25px 0 25px 0;
+    }
+
+    .support {
+        margin-top: 35px;
+        margin-bottom: 70px;
+        border-radius: 16px;
+
+        padding: 40px 20px 40px 20px;
+
+    }
+
+    main {
+        width: calc(100% - 20px);
+        margin-inline: 10px;
+    }
+
+    .input_content input {
+
+        padding: 14px 16px 14px 16px;
+
+        width: 75%;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .input_content button {
+        border-radius: 8px;
+        padding: 17px 20px 17px 20px;
+        background: rgb(255, 255, 255);
+        color: rgb(13, 19, 33);
+        font-family: Azeret Mono;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+
+    }
+
+    .input_content button {
+        padding: 14px 16px 14px 16px;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+    }
+
+    .skills {
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 100px;
+        gap: 20px;
+    }
+
+    .bc_skill {
+        flex-direction: column;
+
+        gap: 20px;
+        padding: 30px;
+        margin-bottom: 24px;
+    }
+
+    .skills .skill {
+        padding: 30px;
+    }
+
+    .inspiration div iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+    .inspiration div {
+
+        padding: 16px;
+    }
+
+    .inspiration {
+        margin-top: 65px;
+        margin-bottom: 120px;
+    }
+
+    .main_container {
+        padding: 40px 27px 40px 27px;
+
+    }
+
+    .main_div1 {
+        padding: 10px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .main_div1_left,
+    .main_div2_right {
+        width: 100%;
+    }
+
+    .main_div1_right,
+    .main_div2_left {
+        width: 100%;
+    }
+
+    .main_div1_right img,
+    .main_div2_left img {
+        width: 100%;
+    }
+
+    .main_div2 {
+        padding: 10px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .banner {
+        width: 100vw;
+        /* height: 90vh; */
+        padding-block: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner_content h1 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-top: 16px;
+        margin-bottom: 14px;
+    }
+
+    .banner_content p {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        padding-block: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 10px;
+    }
+
+    nav ul li a button {
+        padding: 15px 20px 15px 20px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:725px) {
+    .footer_content {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        gap: 15px;
+    }
+
+    main {
+        width: calc(100% - 20px);
+        margin-inline: 10px;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+    }
+
+    .inspiration div iframe {
+        width: 100%;
+        height: 450px;
+    }
+
+    .inspiration div {
+
+        padding: 20px;
+    }
+
+    .inspiration {
+        margin-top: 65px;
+        margin-bottom: 120px;
+    }
+
+    .main_container {
+        padding: 40px 27px 40px 27px;
+
+    }
+
+    .main_div1,
+    .main_div2 {
+        padding: 30px;
+        gap: 20px;
+        flex-direction: column;
+    }
+
+    .main_div1_left,
+    .main_div2_right {
+        width: 100%;
+    }
+
+    .main_div1_right,
+    .main_div2_left {
+        width: 100%;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_div1_right img,
+    .main_div2_left img {
+        /* width: 80%; */
+        height: 60%;
+    }
+
+
+    .banner_content h1 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+
+    nav {
+        padding-block: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-inline: 50px;
+    }
+
+
+}
+
+@media screen and (min-width:725px) and (max-width:992px) {
+    .footer_content {
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    .icons {
+        gap: 15px;
+    }
+
+    main {
+        width: calc(100% - 100px);
+        margin-inline: 50px;
+    }
+
+    .skills {
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        width: 45%;
+    }
+
+    .inspiration div iframe {
+        width: 100%;
+    }
+
+
+    .main_container {
+        padding: 40px 27px 40px 27px;
+
+    }
+
+    .banner {
+        width: 100vw;
+        padding-block: 30px;
+    }
+
+
+    nav {
+
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .footer_content {
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+
+    main {
+        width: calc(100% - 200px);
+        margin-inline: 100px;
+    }
+
+
+    .inspiration div iframe {
+        width: 100%;
+    }
+
+
+
+    .banner {
+        width: 100vw;
+        padding-block: 30px;
+    }
+
+
+    nav {
+
+        align-items: center;
+    }
+
+
 }
