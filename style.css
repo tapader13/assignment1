@@ -728,6 +728,7 @@ main {
         justify-content: space-between;
         align-items: center;
         padding-inline: 10px;
+        gap: 5px;
     }
 
     nav ul li a button {
